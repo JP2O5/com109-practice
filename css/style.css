@@ -36,3 +36,10 @@ input {
 .error {
   border: 2px solid red;
 }
+section {
+  transition: 0.3s;
+}
+
+section:hover {
+  transform: scale(1.01);
+}
