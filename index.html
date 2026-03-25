@@ -1,12 +1,54 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>COM109 Practice</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+  <header>
+    <h1>COM109 Practice Repo</h1>
+    <p>Testing basic HTML, CSS and JavaScript.</p>
+  </header>
 
-<h1>My First Page</h1>
-<p>This is my practice repo for COM109.</p>
+  <main>
+    <section>
+      <h2>About</h2>
+      <p>This is a simple practice page while learning client-side development.</p>
+    </section>
 
+    <section>
+      <h2>Skills Covered</h2>
+      <ul>
+        <li>HTML structure</li>
+        <li>CSS styling</li>
+        <li>JavaScript events</li>
+        <li>Basic form validation</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Button Test</h2>
+      <button id="changeButton">Click Me</button>
+      <p id="output">Waiting for button click...</p>
+    </section>
+
+    <section>
+      <h2>Contact Form Test</h2>
+      <form id="testForm">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name"><br><br>
+
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+      <p id="formMessage"></p>
+    </section>
+  </main>
+
+  <script src="js/script.js"></script>
 </body>
 </html>
